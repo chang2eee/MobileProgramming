@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+        <ImageView
+            android:id="@+id/mainLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mainlogo" />
+
+        <TextView
+            android:id="@+id/textIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7080 복불복 게임"
+            android:gravity="center"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="0dp">
+
+        <Button
+            android:id="@+id/btnYut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="윷놀이"/>
+
+        <Button
+            android:id="@+id/btnSpinBottle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="병돌리기"/>
+
+        <Button
+            android:id="@+id/btnFlipCoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="동전 뒤집기"/>
+
+        <Button
+            android:id="@+id/btnRoulette"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="돌림판 돌리기"/>
+
+        <Button
+            android:id="@+id/btnRollDice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주사위 굴리기"/>
+
+        <Button
+            android:id="@+id/btnRockPaperScissors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가위바위보"/>
+
+    </LinearLayout>
+
+</LinearLayout>
